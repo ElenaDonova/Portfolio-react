@@ -33,7 +33,7 @@ const Contact = () => {
       <div className="Contact__container">
         <div className="Contact__left">
           <form ref={ref} onSubmit={handleSubmit} className="Contact__form">
-            <h1 className="Contact__title">Contact Us</h1>
+            <h1 className="Contact__title">Связаться с нами</h1>
             <input name="name" placeholder="Name" className="Contact__input" />
             <input
               name="email"
@@ -46,9 +46,9 @@ const Contact = () => {
               placeholder="Write your message"
               className="Contact__text-area"
             />
-            <button className="Contact__button">Send</button>
+            <button className="Contact__button">Отправить</button>
             {success &&
-              "Your message has been sent. We'll get back to you soon!"}
+              "Ваше сообщение было отправлено. Мы скоро свяжемся с вами!"}
           </form>
         </div>
 
