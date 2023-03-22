@@ -7,20 +7,29 @@ Source: https://sketchfab.com/3d-models/macbook-pro-2021-37763335f74b497e9190698
 Title: MacBook Pro 2021
 */
 
-import React, { useRef } from 'react'
-import { useGLTF } from '@react-three/drei'
+import React from "react";
+import { useGLTF } from "@react-three/drei";
 
 export default function Model(props) {
-  const { nodes, materials } = useGLTF('/mac-transformed.glb')
+  const { nodes, materials } = useGLTF("/mac-transformed.glb");
   return (
     <group {...props} dispose={null}>
       <group position={[0.12, 0.01, 0]}>
-        <mesh geometry={nodes.Object_6.geometry} material={materials.MacBookPro} />
-        <mesh geometry={nodes.Object_8.geometry} material={materials.MacBookPro} />
+        <mesh
+          geometry={nodes.Object_6.geometry}
+          material={materials.MacBookPro}
+        />
+        <mesh
+          geometry={nodes.Object_8.geometry}
+          material={materials.MacBookPro}
+        />
       </group>
-      <mesh geometry={nodes.Object_4.geometry} material={materials.MacBookPro} />
+      <mesh
+        geometry={nodes.Object_4.geometry}
+        material={materials.MacBookPro}
+      />
     </group>
-  )
+  );
 }
 
-useGLTF.preload('/mac-transformed.glb')
+useGLTF.preload("/mac-transformed.glb");
