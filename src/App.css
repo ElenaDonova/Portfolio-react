@@ -1,0 +1,28 @@
+.App {
+  font-family: "Rajdhani", sans-serif;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  overflow-y: auto;
+  scrollbar-width: none;
+  color: white;
+  background-image: linear-gradient(
+    to left top,
+    #390222,
+    #501f44,
+    #623c69,
+    #715b90,
+    #7c7bb6,
+    #777dbb,
+    #717ec0,
+    #6a80c5,
+    #5862aa,
+    #49458f,
+    #3b2873,
+    #2d0757
+  );
+}
+
+.App::-webkit-scrollbar {
+  display: none;
+}

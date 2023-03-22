@@ -1,0 +1,68 @@
+.Navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.Nav__container {
+  width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.Nav__links {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.Nav__logo {
+  height: 50px;
+}
+
+.Nav__list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.Nav__list-item {
+  cursor: pointer;
+}
+
+.Nav__icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.Nav__icon {
+  width: 20px;
+  cursor: pointer;
+}
+
+.Nav__button {
+  font-family: "Rajdhani", sans-serif;
+  cursor: pointer;
+  width: 100px;
+  padding: 10px;
+  background-color: rgb(167, 12, 90);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .Navbar {
+    width: 100%;
+    padding: 10px;
+  }
+  .Nav__container {
+    width: 100%;
+  }
+
+  .Nav__list {
+    display: none;
+  }
+}

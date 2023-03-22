@@ -1,0 +1,80 @@
+.Contact {
+  height: 100vh;
+  scroll-snap-align: center;
+}
+
+.Contact__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.Contact__left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.Contact__form {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.Contact__title {
+  font-weight: 200;
+}
+
+.Contact__input {
+  font-family: "Rajdhani", sans-serif;
+  padding: 20px;
+  background-color: rgb(238, 237, 237);
+  border: none;
+  border-radius: 5px;
+}
+
+.Contact__text-area {
+  font-family: "Rajdhani", sans-serif;
+  padding: 20px;
+  background-color: rgb(238, 237, 237);
+  border: none;
+  border-radius: 5px;
+}
+
+.Contact__button {
+  background-color: rgb(167, 12, 90);
+  color: white;
+  border: none;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.Contact__right {
+  flex: 1;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .Contact__left {
+    justify-content: center;
+  }
+
+  .Contact__form {
+    width: 300px;
+  }
+
+  .Contact__right {
+    display: none;
+  }
+}
