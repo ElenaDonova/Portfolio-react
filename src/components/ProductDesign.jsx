@@ -15,9 +15,7 @@ const ProductDesign = () => {
 
         <OrbitControls enableZoom={false} />
       </Canvas>
-      <div className="Prod__desc">
-        Read more about our products.
-      </div>
+      <div className="Prod__desc">Узнайте больше о наших продуктах.</div>
     </>
   );
 };

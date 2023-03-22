@@ -14,7 +14,7 @@ const WebDesign = () => {
         <OrbitControls enableZoom={false} />
       </Canvas>
       <div className="Works__desc">
-        We design the best components on the streets known to man!
+        Мы разрабатываем лучшие компоненты известные человеку!
       </div>
     </>
   );

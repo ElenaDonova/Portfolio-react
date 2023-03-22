@@ -15,7 +15,7 @@ const Development = () => {
         <OrbitControls enableZoom={false} autoRotate/>
       </Canvas>
       <div className="Dev__desc">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, eaque!
+        Разрабатываем быстро и с душой!
       </div>
     </>
   );

@@ -6,11 +6,11 @@ import ProductDesign from "./ProductDesign";
 import { useState } from "react";
 
 const data = [
-  "Web Design",
-  "Development",
-  "Illustration",
-  "Product Design",
-  "Social Media",
+  "Веб-дизайн",
+  "Разработка",
+  "Иллюстрация",
+  "Дизайн продукта",
+  "Социальные медиа",
 ];
 
 const Works = () => {
@@ -21,16 +21,20 @@ const Works = () => {
         <div className="Works__left">
           <ul className="Works__list">
             {data.map((item) => (
-              <li key={item} onClick={()=>setWork(item)} className="Works__list-items">
+              <li
+                key={item}
+                onClick={() => setWork(item)}
+                className="Works__list-items"
+              >
                 {item}
               </li>
             ))}
           </ul>
         </div>
         <div className="Works__right">
-          {work === "Web Design" ? (
+          {work === "Веб-дизайн" ? (
             <WebDesign />
-          ) : work === "Development" ? (
+          ) : work === "Разработка" ? (
             <Development />
           ) : (
             <ProductDesign />

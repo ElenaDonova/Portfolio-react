@@ -8,15 +8,15 @@ const Navbar = () => {
         <div className="Nav__links">
           <img src="./img/logo.png" alt="Logo name" className="Nav__logo" />
           <ul className="Nav__list">
-            <li className="Nav__list-item">Home</li>
-            <li className="Nav__list-item">Studio</li>
-            <li className="Nav__list-item">Works</li>
-            <li className="Nav__list-item">Contact</li>
+            <li className="Nav__list-item">Главная</li>
+            <li className="Nav__list-item">Студия</li>
+            <li className="Nav__list-item">Наши работы</li>
+            <li className="Nav__list-item">Контакты</li>
           </ul>
         </div>
         <div className="Nav__icons">
           <img src="./img/search.png" alt="" className="Nav__icon" />
-          <button className="Nav__button">Hire now</button>
+          <button className="Nav__button">Связаться с нами</button>
         </div>
       </div>
     </div>

@@ -10,15 +10,16 @@ const Hero = () => {
       <Navbar />
       <div className="Hero__container">
         <div className="Hero__left">
-          <h1 className="Hero__title">Think. Make. Love</h1>
+          <h1 className="Hero__title">Думать. Делать. Любить</h1>
           <div className="Hero__about">
             <img src="./img/line.png" alt="" className="Hero__line" />
-            <h2 className="Hero__subtitle">What we do.</h2>
+            <h2 className="Hero__subtitle">Что мы делаем.</h2>
           </div>
           <p className="Hero__desc">
-            We enjoy creating delightful, human-centered digital experience.
+            Нам нравится создавать восхитительный, ориентированный на человека
+            цифровой опыт.
           </p>
-          <button className="Hero__button">Learn more</button>
+          <button className="Hero__button">Узнать больше</button>
         </div>
 
         <div className="Hero__right">

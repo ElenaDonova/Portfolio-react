@@ -17,7 +17,7 @@
 }
 
 .Works__left {
-  flex: 1;
+  flex: 2;
   display: flex;
   align-items: center;
 }
